@@ -1,4 +1,3 @@
-```markdown
 # BimiHelper Privacy Policy
 
 Last Updated: June 3, 2026
@@ -124,4 +123,3 @@ We may update this Privacy Policy due to feature changes, legal or regulatory re
 If you have any questions, suggestions, or deletion requests regarding this Privacy Policy or our data processing practices, you can contact us at:
 
 Email: yywangfuc@outlook.com
-```
