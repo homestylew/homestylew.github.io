@@ -84,7 +84,9 @@ The Extension may request the following browser permissions, with purposes as de
 - **activeTab**: used to perform bookmarking, screenshots, and other functions on the current page when you actively interact.
 - **contextMenus**: used to save notes via the right-click menu after selecting text on a web page.
 - **downloads**: used to download region screenshots you actively take to your local device.
-- **host permissions (http://_/_ , https://_/_ )**: used to provide right-click text selection, screenshot prompts, and other helper functions on regular web pages.
+- **offscreen**: Used for browser capabilities that require an offscreen document, such as screen recording.
+- **declarativeNetRequest**: When you visit pages on bimiseek.com such as the Multi-AI aggregation page, this permission is used only to remove frame-blocking response headers (for example `X-Frame-Options` and certain `Content-Security-Policy` directives) on **iframe (`sub_frame`)** responses from common third-party AI sites, so those sites can be embedded on the page. It does not modify main-frame browsing traffic, and it does not read or upload page content.
+- **host permissions (`http://*/*`, `https://*/*`)**: Used for page helpers such as text selection and screenshot prompts on regular websites, and to cover the target domains needed for the iframe-assist rules above.
 
 ## 6. Data Sharing and Third Parties
 
